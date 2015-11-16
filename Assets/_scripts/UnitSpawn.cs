@@ -8,6 +8,9 @@ public class UnitSpawn : MonoBehaviour
     [SerializeField]
     private Transform UnitPos;
 
+    bool? isPlacingUnit;
+    GameObject unitToPlace;
+
     void OnEnable()
     {
         EventManager.OnClicked += SpawnUnit;
@@ -15,6 +18,17 @@ public class UnitSpawn : MonoBehaviour
 
     void SpawnUnit()
     {
-        Instantiate(unit, UnitPos.position, UnitPos.rotation);
+        isPlacingUnit = true;
+        unitToPlace = Instantiate(unit, UnitPos.position, UnitPos.rotation) as GameObject;
     }
+
+    void Update()
+    {
+        while (isPlacingUnit == true)
+        {
+           
+        }
+    }
+
+
 }
