@@ -24,11 +24,17 @@ public class UnitSpawn : MonoBehaviour
 
     void Update()
     {
-        while (isPlacingUnit == true)
+        if (isPlacingUnit == true)
         {
-           
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 roundMousePos = new Vector2(Mathf.RoundToInt(mousePos.x), Mathf.RoundToInt(mousePos.y));
+            mousePos.z = 0;
+            unitToPlace.transform.position = mousePos;
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                isPlacingUnit = false;
+            }
         }
     }
-
-
 }
