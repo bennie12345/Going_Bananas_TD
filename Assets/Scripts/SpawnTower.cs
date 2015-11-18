@@ -22,7 +22,7 @@ public class SpawnTower : MonoBehaviour {
             GameObject obj = Instantiate(upgradeMenu, tower.transform.position, Quaternion.identity) as GameObject;
             obj.transform.SetParent(this.transform);
         }
-        Debug.Log(tempObject.GetComponent<RectTransform>());
+       // Debug.Log(tempObject.GetComponent<RectTransform>());
         localUpgradeMenu.GetComponent<RectTransform>().position = Camera.main.WorldToScreenPoint(tower.transform.position);
 	}
 }
