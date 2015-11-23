@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: ecb3546294e7a944e8faccd8fd5e20e2
+timeCreated: 1448192836
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: croc_walk_0
+    21300002: croc_walk_1
+    21300004: croc_walk_2
+    21300006: croc_walk_3
+    21300008: croc_walk_4
+    21300010: croc_walk_5
+    21300012: croc_walk_6
+    21300014: croc_walk_7
+    21300016: croc_walk_8
+    21300018: croc_walk_9
+    21300020: croc_walk_10
+    21300022: croc_walk_11
+    21300024: croc_walk_12
+    21300026: croc_walk_13
+    21300028: croc_walk_14
+    21300030: croc_walk_15
+    21300032: croc_walk_16
+    21300034: croc_walk_17
+    21300036: croc_walk_18
+    21300038: croc_walk_19
+    21300040: croc_walk_20
+    21300042: croc_walk_21
+    21300044: croc_walk_22
+    21300046: croc_walk_23
+    21300048: croc_walk_24
+    21300050: croc_walk_25
+    21300052: croc_walk_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: croc_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3820
+        width: 554
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3814
+        width: 554
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_2
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 3812
+        width: 554
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3526
+        width: 554
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3524
+        width: 554
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_5
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 3524
+        width: 554
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3238
+        width: 552
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_7
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3236
+        width: 552
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 3236
+        width: 554
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2948
+        width: 552
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2948
+        width: 554
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_11
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2948
+        width: 554
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2658
+        width: 552
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_13
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2660
+        width: 554
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2660
+        width: 554
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2368
+        width: 552
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_16
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2368
+        width: 554
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_17
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 2366
+        width: 552
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2076
+        width: 552
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_19
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2078
+        width: 552
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_20
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2082
+        width: 554
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 552
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_22
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1794
+        width: 554
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_23
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1794
+        width: 554
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 554
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_25
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1514
+        width: 554
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_walk_26
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1514
+        width: 554
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

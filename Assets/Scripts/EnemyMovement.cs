@@ -29,8 +29,11 @@ public class EnemyMovement : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Base")
         {
+            //GetComponent<Animation>().Stop("croc_walking");
             Destroy(this.gameObject);
+            
             _hitBase = true;
+            
         }
     }
 }

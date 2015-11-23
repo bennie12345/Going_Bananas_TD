@@ -3,15 +3,20 @@ using System.Collections;
 
 public class EnemySpawner : MonoBehaviour
 {
-
     [SerializeField]
-    private GameObject Enemy;
+    private GameObject _crocEnemy;
     [SerializeField]
-    private float timeUntilSpawn = 0f;
+    private GameObject _rhinoEnemy;
     [SerializeField]
-    private float startTime = 0f;
+    private GameObject _toucanEnemy;
     [SerializeField]
-    private float secondsBetweenSpawn = 3f;
+    private float _timeUntilSpawn = 0f;
+    [SerializeField]
+    private float _startTime = 0f;
+    [SerializeField]
+    private float _secondsBetweenSpawn = 3f;
+    [SerializeField]
+    private float _chooseEnemy;
     // Use this for initialization
     void Start()
     {
@@ -20,22 +25,34 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
+        if (_chooseEnemy == 1f)
+        {
+            GameObject enemyCroc = Instantiate(_crocEnemy) as GameObject;
 
-        GameObject myEnemy = Instantiate(Enemy) as GameObject;
+            enemyCroc.transform.position = transform.position;
+        }
 
-        myEnemy.transform.position = transform.position;
+        if (_chooseEnemy == 2f)
+        {
+            GameObject enemyRhino = Instantiate(_rhinoEnemy) as GameObject;
+
+            enemyRhino.transform.position = transform.position;
+        }
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        timeUntilSpawn = Time.time - startTime;
+        _timeUntilSpawn = Time.time - _startTime;
 
-        if (timeUntilSpawn >= secondsBetweenSpawn)
+        if (_timeUntilSpawn >= _secondsBetweenSpawn)
         {
-            startTime = Time.time;
-            timeUntilSpawn = 0;
+            _startTime = Time.time;
+            _timeUntilSpawn = 0;
+            _chooseEnemy = Random.Range(1, 3);
             SpawnEnemy();
         }
     }
