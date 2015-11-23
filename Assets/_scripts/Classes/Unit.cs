@@ -4,6 +4,8 @@ using System.Collections;
 public class Unit : MonoBehaviour {
     private GameObject _target;
     [SerializeField]
+    private GameObject _ObjectToThrow;
+    [SerializeField]
     private float _targetingRadius;
 
     private int _layerMask;
@@ -17,8 +19,19 @@ public class Unit : MonoBehaviour {
     void Update()
     {
         Collider2D col = Physics2D.OverlapCircle(this.transform.position, _targetingRadius, _layerMask);
-        Debug.Log(col);
+       /* if (col.gameObject.tag == "Enemy")
+        {
+            //AttackThrow();
+            Debug.Log(col);
+            Debug.Log(col.tag);
+        }*/
+       
     }
+
+   /* void AttackThrow()
+    {
+        Instantiate(_ObjectToThrow, transform.position, transform.rotation);
+    }*/
 
     void OnDrawGizmos()
     {

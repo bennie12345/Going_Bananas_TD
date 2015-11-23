@@ -7,6 +7,7 @@ public class UnitSpawn : MonoBehaviour
     private GameObject unit;
     [SerializeField]
     private Transform UnitPos;
+    private Unit _unit;
 
     bool? isPlacingUnit;
     GameObject unitToPlace;
@@ -20,11 +21,6 @@ public class UnitSpawn : MonoBehaviour
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         return mousePos;
-    }
-
-    void RaycastSphere()
-    {
-
     }
 
     void SpawnUnit()
@@ -42,17 +38,21 @@ public class UnitSpawn : MonoBehaviour
             mousePos.z = 0;
             unitToPlace.transform.position = mousePos;
 
+        //    GameObject _u = GameObject.FindGameObjectWithTag("Unit");
+          //  _u.
+
+
             Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1);
             for (int i = 0; i < colliders.Length; i++)
             {
                 Debug.Log(colliders[i].tag);
                 if (colliders[i].tag == "Tree")
                 {
-                    Debug.Log("unit can be placed here");
+                   // Debug.Log("unit can be placed here");
                 }
                 else if (colliders[i].tag != "Tree")
                 {
-                    Debug.Log("unit can't be placed here");
+                   // Debug.Log("unit can't be placed here");
                 }
             }
 
