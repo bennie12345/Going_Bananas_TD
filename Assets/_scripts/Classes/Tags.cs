@@ -9,8 +9,8 @@ public class Tags : MonoBehaviour
     public string baseTag = "Base";
 
 
-    public void GiveTag(string tag)
+    public void GiveTag(string tag, GameObject go)
     {
-        this.gameObject.tag = tag;
+        go.tag = tag;
     }
 }

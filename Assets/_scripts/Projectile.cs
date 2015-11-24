@@ -19,7 +19,7 @@ public class Projectile : MonoBehaviour
     void Start ()
     {
         _targetPos = Pos();
-        _tags.GiveTag(_tags.projectileTag);
+        _tags.GiveTag(_tags.projectileTag,this.gameObject);
     }
 
     Vector3 Pos()

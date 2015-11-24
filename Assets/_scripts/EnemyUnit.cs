@@ -13,7 +13,7 @@ public class EnemyUnit : MonoBehaviour
 
     void Start()
     {
-        _tags.GiveTag(_tags.enemyTag);
+        _tags.GiveTag(_tags.enemyTag,this.gameObject);
     }
 
 

@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: b47a0f1b33cc52f4fb2c241b0ca72c2c
+timeCreated: 1448364107
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: smallidlemonkey_0
+    21300002: smallidlemonkey_1
+    21300004: smallidlemonkey_2
+    21300006: smallidlemonkey_3
+    21300008: smallidlemonkey_4
+    21300010: smallidlemonkey_5
+    21300012: smallidlemonkey_6
+    21300014: smallidlemonkey_7
+    21300016: smallidlemonkey_8
+    21300018: smallidlemonkey_9
+    21300020: smallidlemonkey_10
+    21300022: smallidlemonkey_11
+    21300024: smallidlemonkey_12
+    21300026: smallidlemonkey_13
+    21300028: smallidlemonkey_14
+    21300030: smallidlemonkey_15
+    21300032: smallidlemonkey_16
+    21300034: smallidlemonkey_17
+    21300036: smallidlemonkey_18
+    21300038: smallidlemonkey_19
+    21300040: smallidlemonkey_20
+    21300042: smallidlemonkey_21
+    21300044: smallidlemonkey_22
+    21300046: smallidlemonkey_23
+    21300048: smallidlemonkey_24
+    21300050: smallidlemonkey_25
+    21300052: smallidlemonkey_26
+    21300054: smallidlemonkey_27
+    21300056: smallidlemonkey_28
+    21300058: smallidlemonkey_29
+    21300060: smallidlemonkey_30
+    21300062: smallidlemonkey_31
+    21300064: smallidlemonkey_32
+    21300066: smallidlemonkey_33
+    21300068: smallidlemonkey_34
+    21300070: smallidlemonkey_35
+    21300072: smallidlemonkey_36
+    21300074: smallidlemonkey_37
+    21300076: smallidlemonkey_38
+    21300078: smallidlemonkey_39
+    21300080: smallidlemonkey_40
+    21300082: smallidlemonkey_41
+    21300084: smallidlemonkey_42
+    21300086: smallidlemonkey_43
+    21300088: smallidlemonkey_44
+    21300090: smallidlemonkey_45
+    21300092: smallidlemonkey_46
+    21300094: smallidlemonkey_47
+    21300096: smallidlemonkey_48
+    21300098: smallidlemonkey_49
+    21300100: smallidlemonkey_50
+    21300102: smallidlemonkey_51
+    21300104: smallidlemonkey_52
+    21300106: smallidlemonkey_53
+    21300108: smallidlemonkey_54
+    21300110: smallidlemonkey_55
+    21300112: smallidlemonkey_56
+    21300114: smallidlemonkey_57
+    21300116: smallidlemonkey_58
+    21300118: smallidlemonkey_59
+    21300120: smallidlemonkey_60
+    21300122: smallidlemonkey_61
+    21300124: smallidlemonkey_62
+    21300126: smallidlemonkey_63
+    21300128: smallidlemonkey_64
+    21300130: smallidlemonkey_65
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: smallidlemonkey_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1179
+        width: 300
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1179
+        width: 300
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_2
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1179
+        width: 297
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_3
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1179
+        width: 298
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_4
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1179
+        width: 299
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_5
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1177
+        width: 297
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_6
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1177
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_7
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 1177
+        width: 295
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_8
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 1177
+        width: 295
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_9
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 1177
+        width: 295
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_10
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1177
+        width: 295
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 942
+        width: 295
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_12
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 942
+        width: 294
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_13
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 942
+        width: 293
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_14
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 942
+        width: 293
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_15
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 942
+        width: 294
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_16
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 942
+        width: 292
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_17
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 942
+        width: 293
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_18
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 942
+        width: 290
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_19
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 942
+        width: 290
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_20
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 942
+        width: 290
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_21
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 942
+        width: 288
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 708
+        width: 288
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_23
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 708
+        width: 290
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_24
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 708
+        width: 292
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_25
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 708
+        width: 293
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_26
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 708
+        width: 292
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_27
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 708
+        width: 293
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_28
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 708
+        width: 294
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_29
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 708
+        width: 297
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_30
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 708
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_31
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 709
+        width: 298
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_32
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 709
+        width: 300
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 473
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_34
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 473
+        width: 297
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_35
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 473
+        width: 297
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_36
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 473
+        width: 296
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_37
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 473
+        width: 297
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_38
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 473
+        width: 295
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_39
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 473
+        width: 295
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_40
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 473
+        width: 293
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_41
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 473
+        width: 293
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_42
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 473
+        width: 291
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_43
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 473
+        width: 292
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 238
+        width: 292
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_45
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 238
+        width: 291
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_46
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 238
+        width: 290
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_47
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 238
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_48
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 238
+        width: 289
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_49
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 238
+        width: 290
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_50
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 238
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_51
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 238
+        width: 290
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_52
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 238
+        width: 290
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_53
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 238
+        width: 290
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_54
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 238
+        width: 290
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 291
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_56
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 3
+        width: 292
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_57
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 3
+        width: 293
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_58
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 3
+        width: 293
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_59
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3
+        width: 293
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_60
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 3
+        width: 293
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_61
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 3
+        width: 294
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_62
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 3
+        width: 297
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_63
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 3
+        width: 297
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_64
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 3
+        width: 298
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: smallidlemonkey_65
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 3
+        width: 297
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

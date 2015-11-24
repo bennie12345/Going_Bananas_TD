@@ -11,13 +11,51 @@ public class Unit : MonoBehaviour {
     private bool  _canAttack;
 
     private int _layerMask;
+    private Tags _tags;
+    private int _timesThrown;
+    [SerializeField]private int _maxTimesThrown;
+
+    void Awake()
+    {
+        _tags = FindObjectOfType<Tags>();
+    }
 
 
     void Start()
     {
         _layerMask = LayerMask.GetMask("Enemy");
+        _tags.GiveTag(_tags.unitTag, this.gameObject);
     }
-    // Update is called once per frame
+
+    void AttackThrow()
+    {
+        Instantiate(_ObjectToThrow, transform.position, transform.rotation);
+        _timesThrown++;
+        print("throwing shit, literally");
+        if (_timesThrown >= _maxTimesThrown)
+        {
+            DestroyOnLimit();
+        }
+    }
+
+
+
+    void AttackDoolDown()
+    {
+        _timer += Time.deltaTime;
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(this.transform.position, _targetingRadius); // Draws the radius
+    }
+
+    void DestroyOnLimit()
+    {
+        Destroy(this.gameObject);
+    }
+
     void Update()
     {
         AttackDoolDown();
@@ -27,12 +65,11 @@ public class Unit : MonoBehaviour {
         {
             for (int i = 0; i < col.Length; i++)
             {
-                if (col[i].gameObject.tag == "Enemy")
+                if (col[i].gameObject.tag == _tags.enemyTag)
                 {
                     Debug.Log("Enemy in range");
                     if (_timer >= 1)
                     {
-                        
                         AttackThrow();
                         _timer = 0;
                     }
@@ -42,22 +79,5 @@ public class Unit : MonoBehaviour {
         }
 
 
-    }
-
-    void AttackThrow()
-    {
-        Instantiate(_ObjectToThrow, transform.position, transform.rotation);
-        print("throwing");
-    }
-
-    void AttackDoolDown()
-    {
-        _timer += Time.deltaTime;
-    }
-
-    void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red; 
-        Gizmos.DrawWireSphere(this.transform.position, _targetingRadius); // Draws the radius
     }
 }
