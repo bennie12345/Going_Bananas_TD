@@ -7,7 +7,7 @@ public class UnitSpawn : MonoBehaviour
     private GameObject unit;
     [SerializeField]
     private Transform UnitPos;
-    private Unit _unit;
+    
 
     bool? isPlacingUnit;
     GameObject unitToPlace;
@@ -38,9 +38,9 @@ public class UnitSpawn : MonoBehaviour
             mousePos.z = 0;
             unitToPlace.transform.position = mousePos;
 
-        //    GameObject _u = GameObject.FindGameObjectWithTag("Unit");
-          //  _u.
-
+            //  GameObject _u = GameObject.FindGameObjectWithTag("Unit");
+            unitToPlace.GetComponent<Unit>().enabled = false;
+           // _unit.enabled = false;
 
             Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1);
             for (int i = 0; i < colliders.Length; i++)
@@ -59,6 +59,7 @@ public class UnitSpawn : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 isPlacingUnit = false;
+                unitToPlace.GetComponent<Unit>().enabled = true;
             }
         }
     }
