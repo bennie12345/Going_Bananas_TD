@@ -4,8 +4,8 @@ using System.Collections;
 public class EnemyMovement : MonoBehaviour {
 
     [SerializeField]
-    private float _moveSpeed;
-    private bool _hitBase = false;
+    protected float _moveSpeed;
+    protected bool _hitBase = false;
 
 	// Use this for initialization
 
@@ -14,7 +14,7 @@ public class EnemyMovement : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	virtual public void Update () {
 
         if (_hitBase == false)
         {
@@ -25,12 +25,12 @@ public class EnemyMovement : MonoBehaviour {
 	
 	}
 
-    void OnCollisionEnter2D(Collision2D coll)
+    virtual public void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "Base")
         {
             //GetComponent<Animation>().Stop("croc_walking");
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
             
             _hitBase = true;
             

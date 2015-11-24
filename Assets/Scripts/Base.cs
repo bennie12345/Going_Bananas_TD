@@ -5,7 +5,10 @@ public class Base : MonoBehaviour
 {
 
     [SerializeField]
-    private float _baseHealth = 20f;
+    private float _baseHealth = 100f;
+    private CrocEnemy _crocEnemy;
+    private RhinoEnemy _rhinoEnemy;
+    private float _damageToBase;
     // Use this for initialization
     void Start()
     {
@@ -21,16 +24,28 @@ public class Base : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnTriggerStay2D(Collider2D other)
     {
-        if (coll.gameObject.tag == "CrocEnemy")
+        
+        
+        if (other.gameObject.tag == "CrocEnemy")
         {
-            _baseHealth -= 2;
+            _damageToBase = 2;
+            StartCoroutine(DamageBase());
         }
 
-        if (coll.gameObject.tag == "RhinoEnemy")
+        if (other.gameObject.tag == "RhinoEnemy")
         {
-            _baseHealth -= 1;
+
+            _damageToBase = 1;
+            StartCoroutine(DamageBase());
         }
+
+    }
+
+    IEnumerator DamageBase()
+    {
+        yield return new WaitForSeconds(1);
+        _baseHealth -= _damageToBase * Time.deltaTime;
     }
 }

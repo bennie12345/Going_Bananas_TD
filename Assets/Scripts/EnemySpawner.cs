@@ -8,14 +8,11 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private GameObject _rhinoEnemy;
     [SerializeField]
-    private GameObject _toucanEnemy;
-    [SerializeField]
     private float _timeUntilSpawn = 0f;
     [SerializeField]
     private float _startTime = 0f;
     [SerializeField]
     private float _secondsBetweenSpawn = 3f;
-    [SerializeField]
     private float _chooseEnemy;
     // Use this for initialization
     void Start()
