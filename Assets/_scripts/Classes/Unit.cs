@@ -25,6 +25,7 @@ public class Unit : MonoBehaviour {
     {
         _layerMask = LayerMask.GetMask("Enemy");
         _tags.GiveTag(_tags.unitTag, this.gameObject);
+        
     }
 
     void AttackThrow()

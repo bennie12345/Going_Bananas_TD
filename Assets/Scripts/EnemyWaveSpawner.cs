@@ -8,10 +8,12 @@ public class EnemyWaveSpawner : MonoBehaviour
     private int _enemies;
     [SerializeField] private int _maxEnemies;
     [SerializeField]private Transform[] lanes;
-    [SerializeField] private GameObject _enemy;
+  //  [SerializeField] private GameObject _enemy;
+    [SerializeField]
+    private GameObject[] _enemy;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
         _enemies = 2;
         InvokeRepeating("SpawnEnemies",startTimer, nextWaveTimer);
@@ -22,7 +24,7 @@ public class EnemyWaveSpawner : MonoBehaviour
     {
         for (int i = 0; i < _enemies; i++)
         {
-            Instantiate(_enemy,lanes[(Random.Range(0,lanes.Length))].position, Quaternion.identity);
+            Instantiate(_enemy[(Random.Range(0,_enemy.Length))]/*_enemy*/,lanes[(Random.Range(0,lanes.Length))].position, Quaternion.identity);
         }
         _enemies++;
         if (_enemies >= _maxEnemies)

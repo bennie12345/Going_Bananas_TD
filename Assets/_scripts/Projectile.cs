@@ -21,7 +21,7 @@ public class Projectile : MonoBehaviour
         _targetPos = Pos();
         _tags.GiveTag(_tags.projectileTag,this.gameObject);
     }
-
+    
     Vector3 Pos()
     {
         _targets = GameObject.FindGameObjectsWithTag("Enemy");

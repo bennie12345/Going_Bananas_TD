@@ -7,10 +7,17 @@ public class UnitSpawn : MonoBehaviour
     private GameObject unit;
     [SerializeField]
     private Transform UnitPos;
+
+    private Tags _tags;
     
 
     bool? isPlacingUnit;
     GameObject unitToPlace;
+
+    void Awake()
+    {
+        _tags = FindObjectOfType<Tags>();
+    }
 
     void OnEnable()
     {
@@ -46,9 +53,9 @@ public class UnitSpawn : MonoBehaviour
             for (int i = 0; i < colliders.Length; i++)
             {
                 Debug.Log(colliders[i].tag);
-                if (colliders[i].tag == "Tree")
+                if (colliders[i].tag == _tags.pos1Tag)
                 {
-                   // Debug.Log("unit can be placed here");
+                    Debug.Log("unit can be placed here");
                 }
                 else if (colliders[i].tag != "Tree")
                 {
