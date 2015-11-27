@@ -13,6 +13,7 @@ public class UnitSpawn : MonoBehaviour
 
     bool? isPlacingUnit;
     private bool _canPlace;
+    private int _lyrMask = 1;
     GameObject unitToPlace;
 
     void Awake()
@@ -49,7 +50,7 @@ public class UnitSpawn : MonoBehaviour
 
             unitToPlace.GetComponent<Unit>().enabled = false;
 
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1);
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1,_lyrMask);
             for (int i = 0; i < colliders.Length; i++)
             {
                 Debug.Log(colliders[i].tag);

@@ -24,7 +24,7 @@ public class Projectile : MonoBehaviour
     
     Vector3 Pos()
     {
-        _targets = GameObject.FindGameObjectsWithTag("Enemy");
+        _targets = GameObject.FindGameObjectsWithTag(_tags.crocodileEnemy);
         Vector3 pos = new Vector3(_targets[Random.Range(0, _targets.Length)].transform.position.x, _targets[Random.Range(0, _targets.Length)].transform.position.y, 0);
         return pos;
     }
