@@ -15,7 +15,6 @@ public class UnitSpawn : MonoBehaviour
 
     bool? isPlacingUnit;
     private bool _canPlace;
-    //public int _lyrMask = 1;
     private LayerMask _lyrMask;
     GameObject unitToPlace;
 
@@ -40,12 +39,12 @@ public class UnitSpawn : MonoBehaviour
             unitToPlace = Instantiate(u, MousePos(), UnitPos.rotation) as GameObject;
             _r = unitToPlace.GetComponent<SpriteRenderer>();
             _color = _r.material.color;
-            
+
 
             isPlacingUnit = true;
         }
 
-        
+
     }
 
     void PlaceUnit()
@@ -72,7 +71,7 @@ public class UnitSpawn : MonoBehaviour
             unitToPlace.GetComponent<Unit>().enabled = false;
 
 
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1,_lyrMask);
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1, _lyrMask);
             for (int i = 0; i < colliders.Length; i++)
             {
                 Debug.Log(colliders[i].tag);
@@ -96,16 +95,13 @@ public class UnitSpawn : MonoBehaviour
                     isPlacingUnit = false;
                     _currencyManager.Currency -= 300;
                     unitToPlace.GetComponent<Unit>().enabled = true;
-                    
-                    GetComponent<AudioSource>().Play();
-                    
-                }
                     unitToPlace.GetComponent<Renderer>().material.color = _color;
-                } 
+                    GetComponent<AudioSource>().Play();
+                }
             }
 
-            }
-        
+        }
+    }
 
     void Update()
     {
@@ -113,4 +109,3 @@ public class UnitSpawn : MonoBehaviour
         PlaceUnit();
     }
 }
-
