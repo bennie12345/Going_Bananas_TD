@@ -35,7 +35,7 @@ public class Unit : MonoBehaviour {
 
     void AttackThrow()
     {
-        _anim.SetTrigger("throw");
+        _anim.SetBool("isThrowing",true);
         Instantiate(_ObjectToThrow, transform.position, transform.rotation);
         _timesThrown++;
         if (_timesThrown >= _maxTimesThrown)
@@ -77,7 +77,7 @@ public class Unit : MonoBehaviour {
                     {
                         AttackThrow();
                         _timer = 0;
-                      //  _anim.SetBool("canThrow", false);
+                        _anim.SetBool("canThrow", false);
                     }
                     
                 }

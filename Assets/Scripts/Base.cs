@@ -30,11 +30,8 @@ public class Base : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        
-        
         if (other.gameObject.tag == _tags.crocodileEnemy)
         {
-            print("sdfsdf");
             _damageToBase = 15;
             StartCoroutine(DamageBase());
             
@@ -42,7 +39,6 @@ public class Base : MonoBehaviour
 
         if (other.gameObject.tag == _tags.rhinoEnemy)
         {
-            print("sdfsdf");
             _damageToBase = 10;
             StartCoroutine(DamageBase());
         }
@@ -53,8 +49,6 @@ public class Base : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         _baseHealth -= _damageToBase * Time.deltaTime;
-        print(_baseHealth);
-
         
     }
 }
