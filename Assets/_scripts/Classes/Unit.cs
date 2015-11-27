@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Unit : MonoBehaviour {
-    
+public class Unit : MonoBehaviour
+{
+
     [SerializeField]
     private GameObject _ObjectToThrow;
     [SerializeField]
@@ -12,11 +13,11 @@ public class Unit : MonoBehaviour {
 
     private GameObject _target;
     private float _timer;
-    private bool  _canAttack;
+    private bool _canAttack;
     private int _layerMask;
     private Tags _tags;
     private int _timesThrown;
-    
+
     protected Animator _anim;
 
     void Awake()
@@ -30,12 +31,12 @@ public class Unit : MonoBehaviour {
     {
         _layerMask = LayerMask.GetMask("Enemy");
         _tags.GiveTag(_tags.unitTag, this.gameObject);
-        
+
     }
 
     void AttackThrow()
     {
-        _anim.SetBool("isThrowing",true);
+        _anim.SetBool("isThrowing", true);
         Instantiate(_ObjectToThrow, transform.position, transform.rotation);
         _timesThrown++;
         if (_timesThrown >= _maxTimesThrown)
@@ -67,7 +68,7 @@ public class Unit : MonoBehaviour {
         AttackDoolDown();
         Collider2D[] col = Physics2D.OverlapCircleAll(this.transform.position, _targetingRadius, _layerMask);
 
-        if (col !=null)
+        if (col != null)
         {
             for (int i = 0; i < col.Length; i++)
             {
@@ -79,7 +80,7 @@ public class Unit : MonoBehaviour {
                         _timer = 0;
                         _anim.SetBool("canThrow", false);
                     }
-                    
+
                 }
             }
         }

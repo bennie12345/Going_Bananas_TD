@@ -9,7 +9,7 @@ public class CurrencyManager : MonoBehaviour
 
     void Start()
     {
-        currency = 6000000000;
+        currency = 1200;
     }
 
    public float Currency {

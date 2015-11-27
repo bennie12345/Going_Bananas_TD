@@ -96,7 +96,6 @@ public class UnitSpawn : MonoBehaviour
                     _currencyManager.Currency -= 300;
                     unitToPlace.GetComponent<Unit>().enabled = true;
                     unitToPlace.GetComponent<Renderer>().material.color = _color;
-                    GetComponent<AudioSource>().Play();
                 }
             }
 

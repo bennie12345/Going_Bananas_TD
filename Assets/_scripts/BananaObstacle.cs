@@ -17,7 +17,7 @@ public class BananaObstacle : MonoBehaviour {
     {
         if (other.gameObject.tag == "CrocEnemy")
         {
-            //other.gameObject._moveSpeed = 0;
+            other.SendMessage("Stop");
         }
     }
 }
