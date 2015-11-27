@@ -15,11 +15,8 @@ public class UnitSpawn : MonoBehaviour
 
     bool? isPlacingUnit;
     private bool _canPlace;
-<<<<<<< HEAD
-    public int _lyrMask = 1;
-=======
+    //public int _lyrMask = 1;
     private LayerMask _lyrMask;
->>>>>>> origin/master
     GameObject unitToPlace;
 
     void Awake()
@@ -99,19 +96,16 @@ public class UnitSpawn : MonoBehaviour
                     isPlacingUnit = false;
                     _currencyManager.Currency -= 300;
                     unitToPlace.GetComponent<Unit>().enabled = true;
-<<<<<<< HEAD
                     
                     GetComponent<AudioSource>().Play();
                     
                 }
-=======
                     unitToPlace.GetComponent<Renderer>().material.color = _color;
                 } 
             }
->>>>>>> origin/master
 
             }
-        }
+        
 
     void Update()
     {
@@ -119,3 +113,4 @@ public class UnitSpawn : MonoBehaviour
         PlaceUnit();
     }
 }
+
