@@ -13,7 +13,7 @@ public class UnitSpawn : MonoBehaviour
 
     bool? isPlacingUnit;
     private bool _canPlace;
-    private int _lyrMask = 1;
+    public int _lyrMask = 1;
     GameObject unitToPlace;
 
     void Awake()
@@ -74,6 +74,9 @@ public class UnitSpawn : MonoBehaviour
                     isPlacingUnit = false;
                     _currencyManager.Currency -= 300;
                     unitToPlace.GetComponent<Unit>().enabled = true;
+                    
+                    GetComponent<AudioSource>().Play();
+                    
                 }
 
             }

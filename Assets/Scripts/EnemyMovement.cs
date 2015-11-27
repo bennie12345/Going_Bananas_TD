@@ -46,7 +46,7 @@ public class EnemyMovement : MonoBehaviour {
             //GetComponent<Animation>().Stop("croc_walking");
             //Destroy(this.gameObject);
            // Debug.Log("making contact with the base");
-            
+            GetComponent<AudioSource>().Play();
             _hitBase = true;
             
         }

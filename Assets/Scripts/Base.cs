@@ -24,17 +24,16 @@ public class Base : MonoBehaviour
     {
         if (_baseHealth <= 0)
         {
-            Destroy(this.gameObject);
+
+            StartCoroutine(DestroyBase());
+            
         }
     }
 
     void OnTriggerStay2D(Collider2D other)
     {
-        
-        
         if (other.gameObject.tag == _tags.crocodileEnemy)
         {
-            print("sdfsdf");
             _damageToBase = 15;
             StartCoroutine(DamageBase());
             
@@ -42,7 +41,6 @@ public class Base : MonoBehaviour
 
         if (other.gameObject.tag == _tags.rhinoEnemy)
         {
-            print("sdfsdf");
             _damageToBase = 10;
             StartCoroutine(DamageBase());
         }
@@ -53,8 +51,13 @@ public class Base : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         _baseHealth -= _damageToBase * Time.deltaTime;
-        print(_baseHealth);
-
         
+    }
+
+    IEnumerator DestroyBase()
+    {
+        GetComponent<AudioSource>().Play();
+        yield return new WaitForSeconds(0.1f);
+        Destroy(this.gameObject);
     }
 }

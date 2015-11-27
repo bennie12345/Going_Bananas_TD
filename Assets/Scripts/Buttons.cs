@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Buttons : MonoBehaviour {
-
+    private GameObject[] _bases;
 	// Use this for initialization
 	void Start () {
 	
@@ -10,7 +10,12 @@ public class Buttons : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        _bases = GameObject.FindGameObjectsWithTag("Base");
+
+        if (_bases.Length == 0 && Application.loadedLevelName == "MainScene")
+        {
+            Application.LoadLevel("GameOverScene");
+        }
 	}
 
     public void PlayMainMenu()
