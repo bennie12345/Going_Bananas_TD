@@ -1,9 +1,72 @@
 fileFormatVersion: 2
 guid: 4b800b958a8c92044a6c7763bdd096b3
-timeCreated: 1448540653
+timeCreated: 1448576870
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: croc_fall_0
+    21300002: croc_fall_1
+    21300004: croc_fall_2
+    21300006: croc_fall_3
+    21300008: croc_fall_4
+    21300010: croc_fall_5
+    21300012: croc_fall_6
+    21300014: croc_fall_7
+    21300016: croc_fall_8
+    21300018: croc_fall_9
+    21300020: croc_fall_10
+    21300022: croc_fall_11
+    21300024: croc_fall_12
+    21300026: croc_fall_13
+    21300028: croc_fall_14
+    21300030: croc_fall_15
+    21300032: croc_fall_16
+    21300034: croc_fall_17
+    21300036: croc_fall_18
+    21300038: croc_fall_19
+    21300040: croc_fall_20
+    21300042: croc_fall_21
+    21300044: croc_fall_22
+    21300046: croc_fall_23
+    21300048: croc_fall_24
+    21300050: croc_fall_25
+    21300052: croc_fall_26
+    21300054: croc_fall_27
+    21300056: croc_fall_28
+    21300058: croc_fall_29
+    21300060: croc_fall_30
+    21300062: croc_fall_31
+    21300064: croc_fall_32
+    21300066: croc_fall_33
+    21300068: croc_fall_34
+    21300070: croc_fall_35
+    21300072: croc_fall_36
+    21300074: croc_fall_37
+    21300076: croc_fall_38
+    21300078: croc_fall_39
+    21300080: croc_fall_40
+    21300082: croc_fall_41
+    21300084: croc_fall_42
+    21300086: croc_fall_43
+    21300088: croc_fall_44
+    21300090: croc_fall_45
+    21300092: croc_fall_46
+    21300094: croc_fall_47
+    21300096: croc_fall_48
+    21300098: croc_fall_49
+    21300100: croc_fall_50
+    21300102: croc_fall_51
+    21300104: croc_fall_52
+    21300106: croc_fall_53
+    21300108: croc_fall_54
+    21300110: croc_fall_55
+    21300112: croc_fall_56
+    21300114: croc_fall_57
+    21300116: croc_fall_58
+    21300118: croc_fall_59
+    21300120: croc_fall_60
+    21300122: croc_fall_61
+    21300124: croc_fall_62
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,11 +89,11 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +101,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +112,637 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: croc_fall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3818
+        width: 554
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_1
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3816
+        width: 542
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_2
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 3816
+        width: 532
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_3
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 3824
+        width: 522
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_4
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 3822
+        width: 580
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_5
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 3828
+        width: 632
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_6
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3354
+        width: 804
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3480
+        width: 628
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_8
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 3438
+        width: 568
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_9
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 3400
+        width: 502
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_10
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 3392
+        width: 444
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_11
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 3386
+        width: 396
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_12
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 3402
+        width: 368
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_13
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 3418
+        width: 346
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2874
+        width: 292
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_15
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2914
+        width: 364
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_16
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2998
+        width: 442
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_17
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3082
+        width: 518
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_18
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 3132
+        width: 588
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_19
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 3124
+        width: 590
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_20
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 3118
+        width: 594
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_21
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 3118
+        width: 596
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2596
+        width: 598
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_23
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 2600
+        width: 594
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_24
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2602
+        width: 588
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_25
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 2606
+        width: 582
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_26
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 2612
+        width: 576
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_27
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 2612
+        width: 570
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_28
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 2616
+        width: 570
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2332
+        width: 568
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_30
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 2326
+        width: 570
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_31
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 2334
+        width: 570
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_32
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 2338
+        width: 568
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_33
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 2336
+        width: 570
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_34
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 2328
+        width: 570
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_35
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 2338
+        width: 570
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2068
+        width: 568
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_37
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 2058
+        width: 570
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_38
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 2046
+        width: 570
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_39
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 2058
+        width: 570
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_40
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 2058
+        width: 570
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_41
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 2056
+        width: 570
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_42
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 2052
+        width: 570
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1770
+        width: 568
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_44
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1774
+        width: 570
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_45
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1776
+        width: 570
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_46
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1780
+        width: 570
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_47
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 1786
+        width: 570
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_48
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1786
+        width: 570
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_49
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 1790
+        width: 570
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1510
+        width: 568
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_51
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1504
+        width: 570
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_52
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1512
+        width: 570
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_53
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1516
+        width: 570
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_54
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 1514
+        width: 570
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_55
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1504
+        width: 570
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_56
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 1514
+        width: 570
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1246
+        width: 568
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_58
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1236
+        width: 570
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_59
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1224
+        width: 570
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_60
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1236
+        width: 570
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_61
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 1236
+        width: 570
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: croc_fall_62
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1234
+        width: 570
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

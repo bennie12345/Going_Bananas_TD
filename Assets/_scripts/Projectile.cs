@@ -38,12 +38,13 @@ public class Projectile : MonoBehaviour
     void Update ()
     {
         EnemyFollow();
-        _lifeTime += Time.deltaTime;
+        DestroyAfterLifeTime();
 	}
 
     void DestroyAfterLifeTime()
-    {
-        if (_lifeTime >= 1.5f)
+    { 
+        _lifeTime += Time.deltaTime;
+        if (_lifeTime >= 0.5f)
         {
             Destroy(this.gameObject);
         }
@@ -51,7 +52,7 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == _tags.enemyTag)
+        if (other.gameObject.tag == _tags.crocodileEnemy /*|| other.gameObject.tag == _tags.rhinoEnemy*/)
         {
             other.SendMessage("TakeDamage",_dmg);
             Destroy(this.gameObject);

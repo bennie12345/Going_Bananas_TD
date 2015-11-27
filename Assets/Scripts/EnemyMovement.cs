@@ -3,15 +3,29 @@ using System.Collections;
 
 public class EnemyMovement : MonoBehaviour {
 
-    [SerializeField]
+    
+    private Tags _tags;
     protected float _moveSpeed;
     protected bool _hitBase = false;
 
-	// Use this for initialization
+    public float minSpeed;
+    public float maxSpeed;
 
-	void Start () {
-	
-	}
+    void Awake()
+    {
+        _tags = FindObjectOfType<Tags>();
+    }
+
+    void Start()
+    {
+        RandomMovementSpeed();
+    }
+
+    void RandomMovementSpeed()
+    {
+        _moveSpeed = Random.Range(minSpeed, maxSpeed);
+       // Debug.Log(_moveSpeed);
+    }
 	
 	// Update is called once per frame
 	virtual public void Update () {
@@ -27,10 +41,11 @@ public class EnemyMovement : MonoBehaviour {
 
     virtual public void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.gameObject.tag == "Base")
+        if (coll.gameObject.tag == _tags.baseTag)
         {
             //GetComponent<Animation>().Stop("croc_walking");
             //Destroy(this.gameObject);
+           // Debug.Log("making contact with the base");
             
             _hitBase = true;
             

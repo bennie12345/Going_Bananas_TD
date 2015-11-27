@@ -6,13 +6,17 @@ public class Base : MonoBehaviour
 
     [SerializeField]
     private float _baseHealth = 100f;
-    private CrocEnemy _crocEnemy;
-    private RhinoEnemy _rhinoEnemy;
+    private Tags _tags;
     private float _damageToBase;
-    // Use this for initialization
+
+    void Awake()
+    {
+        _tags = FindObjectOfType<Tags>();
+    }
+
     void Start()
     {
-
+        _tags.GiveTag(_tags.baseTag,this.gameObject);
     }
 
     // Update is called once per frame
@@ -28,16 +32,18 @@ public class Base : MonoBehaviour
     {
         
         
-        if (other.gameObject.tag == "CrocEnemy")
+        if (other.gameObject.tag == _tags.crocodileEnemy)
         {
-            _damageToBase = 2;
+            print("sdfsdf");
+            _damageToBase = 15;
             StartCoroutine(DamageBase());
+            
         }
 
-        if (other.gameObject.tag == "RhinoEnemy")
+        if (other.gameObject.tag == _tags.rhinoEnemy)
         {
-
-            _damageToBase = 1;
+            print("sdfsdf");
+            _damageToBase = 10;
             StartCoroutine(DamageBase());
         }
 
@@ -47,5 +53,8 @@ public class Base : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         _baseHealth -= _damageToBase * Time.deltaTime;
+        print(_baseHealth);
+
+        
     }
 }

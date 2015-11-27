@@ -2,21 +2,26 @@
 using System.Collections;
 
 public class Unit : MonoBehaviour {
-    private GameObject _target;
+    
     [SerializeField]
     private GameObject _ObjectToThrow;
     [SerializeField]
     private float _targetingRadius;
+    [SerializeField]
+    private int _maxTimesThrown;
+
+    private GameObject _target;
     private float _timer;
     private bool  _canAttack;
-
     private int _layerMask;
     private Tags _tags;
     private int _timesThrown;
-    [SerializeField]private int _maxTimesThrown;
+    
+    protected Animator _anim;
 
     void Awake()
     {
+        _anim = GetComponent<Animator>();
         _tags = FindObjectOfType<Tags>();
     }
 
@@ -30,9 +35,9 @@ public class Unit : MonoBehaviour {
 
     void AttackThrow()
     {
+        _anim.SetTrigger("throw");
         Instantiate(_ObjectToThrow, transform.position, transform.rotation);
         _timesThrown++;
-        print("throwing shit, literally");
         if (_timesThrown >= _maxTimesThrown)
         {
             DestroyOnLimit();
@@ -66,13 +71,13 @@ public class Unit : MonoBehaviour {
         {
             for (int i = 0; i < col.Length; i++)
             {
-                if (col[i].gameObject.tag == _tags.enemyTag)
+                if (col[i].gameObject.tag == _tags.crocodileEnemy)
                 {
-                    Debug.Log("Enemy in range");
                     if (_timer >= 1)
                     {
                         AttackThrow();
                         _timer = 0;
+                      //  _anim.SetBool("canThrow", false);
                     }
                     
                 }

@@ -1,0 +1,1244 @@
+fileFormatVersion: 2
+guid: 34ead6997fecb8440a23b87b5c539b0e
+timeCreated: 1448575077
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: leave_0
+    21300002: leave_1
+    21300004: leave_2
+    21300006: leave_3
+    21300008: leave_4
+    21300010: leave_5
+    21300012: leave_6
+    21300014: leave_7
+    21300016: leave_8
+    21300018: leave_9
+    21300020: leave_10
+    21300022: leave_11
+    21300024: leave_12
+    21300026: leave_13
+    21300028: leave_14
+    21300030: leave_15
+    21300032: leave_16
+    21300034: leave_17
+    21300036: leave_18
+    21300038: leave_19
+    21300040: leave_20
+    21300042: leave_21
+    21300044: leave_22
+    21300046: leave_23
+    21300048: leave_24
+    21300050: leave_25
+    21300052: leave_26
+    21300054: leave_27
+    21300056: leave_28
+    21300058: leave_29
+    21300060: leave_30
+    21300062: leave_31
+    21300064: leave_32
+    21300066: leave_33
+    21300068: leave_34
+    21300070: leave_35
+    21300072: leave_36
+    21300074: leave_37
+    21300076: leave_38
+    21300078: leave_39
+    21300080: leave_40
+    21300082: leave_41
+    21300084: leave_42
+    21300086: leave_43
+    21300088: leave_44
+    21300090: leave_45
+    21300092: leave_46
+    21300094: leave_47
+    21300096: leave_48
+    21300098: leave_49
+    21300100: leave_50
+    21300102: leave_51
+    21300104: leave_52
+    21300106: leave_53
+    21300108: leave_54
+    21300110: leave_55
+    21300112: leave_56
+    21300114: leave_57
+    21300116: leave_58
+    21300118: leave_59
+    21300120: leave_60
+    21300122: leave_61
+    21300124: leave_62
+    21300126: leave_63
+    21300128: leave_64
+    21300130: leave_65
+    21300132: leave_66
+    21300134: leave_67
+    21300136: leave_68
+    21300138: leave_69
+    21300140: leave_70
+    21300142: leave_71
+    21300144: leave_72
+    21300146: leave_73
+    21300148: leave_74
+    21300150: leave_75
+    21300152: leave_76
+    21300154: leave_77
+    21300156: leave_78
+    21300158: leave_79
+    21300160: leave_80
+    21300162: leave_81
+    21300164: leave_82
+    21300166: leave_83
+    21300168: leave_84
+    21300170: leave_85
+    21300172: leave_86
+    21300174: leave_87
+    21300176: leave_88
+    21300178: leave_89
+    21300180: leave_90
+    21300182: leave_91
+    21300184: leave_92
+    21300186: leave_93
+    21300188: leave_94
+    21300190: leave_95
+    21300192: leave_96
+    21300194: leave_97
+    21300196: leave_98
+    21300198: leave_99
+    21300200: leave_100
+    21300202: leave_101
+    21300204: leave_102
+    21300206: leave_103
+    21300208: leave_104
+    21300210: leave_105
+    21300212: leave_106
+    21300214: leave_107
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: leave_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3926
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_1
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 3926
+        width: 304
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_2
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 3926
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_3
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 3926
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_4
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 3926
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_5
+      rect:
+        serializedVersion: 2
+        x: 5861
+        y: 3926
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_6
+      rect:
+        serializedVersion: 2
+        x: 7015
+        y: 3926
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_7
+      rect:
+        serializedVersion: 2
+        x: 8169
+        y: 3926
+        width: 293
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_8
+      rect:
+        serializedVersion: 2
+        x: 9323
+        y: 3926
+        width: 293
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_9
+      rect:
+        serializedVersion: 2
+        x: 10472
+        y: 3926
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3436
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_11
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3436
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_12
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 3436
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_13
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 3436
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_14
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 3436
+        width: 293
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_15
+      rect:
+        serializedVersion: 2
+        x: 5861
+        y: 3436
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_16
+      rect:
+        serializedVersion: 2
+        x: 7015
+        y: 3436
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_17
+      rect:
+        serializedVersion: 2
+        x: 8169
+        y: 3436
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_18
+      rect:
+        serializedVersion: 2
+        x: 9323
+        y: 3436
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_19
+      rect:
+        serializedVersion: 2
+        x: 10477
+        y: 3436
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2946
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2946
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_22
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 2946
+        width: 298
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_23
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 2946
+        width: 388
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_24
+      rect:
+        serializedVersion: 2
+        x: 4622
+        y: 2946
+        width: 383
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_25
+      rect:
+        serializedVersion: 2
+        x: 5776
+        y: 2946
+        width: 383
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_26
+      rect:
+        serializedVersion: 2
+        x: 6936
+        y: 3148
+        width: 135
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_27
+      rect:
+        serializedVersion: 2
+        x: 7026
+        y: 2946
+        width: 287
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_28
+      rect:
+        serializedVersion: 2
+        x: 8090
+        y: 3154
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_29
+      rect:
+        serializedVersion: 2
+        x: 8180
+        y: 2946
+        width: 287
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_30
+      rect:
+        serializedVersion: 2
+        x: 9250
+        y: 3154
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_31
+      rect:
+        serializedVersion: 2
+        x: 9334
+        y: 2946
+        width: 287
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_32
+      rect:
+        serializedVersion: 2
+        x: 10404
+        y: 3160
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_33
+      rect:
+        serializedVersion: 2
+        x: 10488
+        y: 2946
+        width: 288
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2675
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_35
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2675
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_36
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 2681
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_37
+      rect:
+        serializedVersion: 2
+        x: 3507
+        y: 2687
+        width: 136
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_38
+      rect:
+        serializedVersion: 2
+        x: 4667
+        y: 2692
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_39
+      rect:
+        serializedVersion: 2
+        x: 5827
+        y: 2698
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_40
+      rect:
+        serializedVersion: 2
+        x: 6992
+        y: 2703
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_41
+      rect:
+        serializedVersion: 2
+        x: 8152
+        y: 2709
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_42
+      rect:
+        serializedVersion: 2
+        x: 9312
+        y: 2709
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_43
+      rect:
+        serializedVersion: 2
+        x: 10477
+        y: 2715
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_44
+      rect:
+        serializedVersion: 2
+        x: 10505
+        y: 2456
+        width: 254
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_45
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2456
+        width: 281
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_46
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 2456
+        width: 281
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_47
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 2456
+        width: 281
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_48
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 2456
+        width: 270
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_49
+      rect:
+        serializedVersion: 2
+        x: 4735
+        y: 2456
+        width: 270
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_50
+      rect:
+        serializedVersion: 2
+        x: 5889
+        y: 2456
+        width: 264
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_51
+      rect:
+        serializedVersion: 2
+        x: 7043
+        y: 2456
+        width: 259
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_52
+      rect:
+        serializedVersion: 2
+        x: 8197
+        y: 2456
+        width: 259
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_53
+      rect:
+        serializedVersion: 2
+        x: 9351
+        y: 2456
+        width: 259
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_54
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2225
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_55
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1966
+        width: 254
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_56
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 2230
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_57
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1966
+        width: 247
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_58
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2208
+        width: 136
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_59
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 2185
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_60
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 1966
+        width: 271
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_61
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 1966
+        width: 287
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_62
+      rect:
+        serializedVersion: 2
+        x: 4718
+        y: 1966
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_63
+      rect:
+        serializedVersion: 2
+        x: 5866
+        y: 1966
+        width: 304
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_64
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 1966
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_65
+      rect:
+        serializedVersion: 2
+        x: 8175
+        y: 1966
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_66
+      rect:
+        serializedVersion: 2
+        x: 9329
+        y: 1966
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_67
+      rect:
+        serializedVersion: 2
+        x: 10483
+        y: 1966
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_68
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1476
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_69
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1476
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_70
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1476
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_71
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 1476
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_72
+      rect:
+        serializedVersion: 2
+        x: 4718
+        y: 1476
+        width: 293
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_73
+      rect:
+        serializedVersion: 2
+        x: 5866
+        y: 1476
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_74
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 1476
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_75
+      rect:
+        serializedVersion: 2
+        x: 8175
+        y: 1476
+        width: 292
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_76
+      rect:
+        serializedVersion: 2
+        x: 9233
+        y: 1476
+        width: 298
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_77
+      rect:
+        serializedVersion: 2
+        x: 10387
+        y: 1476
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_78
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 986
+        width: 299
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_79
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 986
+        width: 293
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_80
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 986
+        width: 292
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_81
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 986
+        width: 292
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_82
+      rect:
+        serializedVersion: 2
+        x: 4628
+        y: 986
+        width: 287
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_83
+      rect:
+        serializedVersion: 2
+        x: 5788
+        y: 986
+        width: 281
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_84
+      rect:
+        serializedVersion: 2
+        x: 6942
+        y: 986
+        width: 281
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_85
+      rect:
+        serializedVersion: 2
+        x: 8096
+        y: 986
+        width: 281
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_86
+      rect:
+        serializedVersion: 2
+        x: 9256
+        y: 986
+        width: 270
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_87
+      rect:
+        serializedVersion: 2
+        x: 10415
+        y: 986
+        width: 265
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_88
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 501
+        width: 259
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_89
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 524
+        width: 265
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_90
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 541
+        width: 270
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_91
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 558
+        width: 281
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_92
+      rect:
+        serializedVersion: 2
+        x: 4774
+        y: 574
+        width: 287
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_93
+      rect:
+        serializedVersion: 2
+        x: 5956
+        y: 591
+        width: 293
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_94
+      rect:
+        serializedVersion: 2
+        x: 7139
+        y: 614
+        width: 298
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_95
+      rect:
+        serializedVersion: 2
+        x: 8321
+        y: 636
+        width: 304
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_96
+      rect:
+        serializedVersion: 2
+        x: 9503
+        y: 659
+        width: 310
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_97
+      rect:
+        serializedVersion: 2
+        x: 10691
+        y: 687
+        width: 310
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_98
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 220
+        width: 316
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_99
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 220
+        width: 321
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_100
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 203
+        width: 315
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_101
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 180
+        width: 315
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_102
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 158
+        width: 310
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_103
+      rect:
+        serializedVersion: 2
+        x: 6356
+        y: 135
+        width: 310
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_104
+      rect:
+        serializedVersion: 2
+        x: 7561
+        y: 118
+        width: 310
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_105
+      rect:
+        serializedVersion: 2
+        x: 8766
+        y: 96
+        width: 304
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_106
+      rect:
+        serializedVersion: 2
+        x: 9971
+        y: 73
+        width: 304
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leave_107
+      rect:
+        serializedVersion: 2
+        x: 11175
+        y: 56
+        width: 299
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

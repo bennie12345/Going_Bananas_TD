@@ -11,6 +11,9 @@ public class Tags : MonoBehaviour
     public string pos2Tag = "SpawnPos2";
     public string pos3Tag = "SpawnPos3";
     public string pos4Tag = "SpawnPos4";
+    public string crocodileEnemy = "CrocEnemy";
+    public string rhinoEnemy = "RhinoEnemy";
+    public string deathTag = "isDeath";
 
 
 
