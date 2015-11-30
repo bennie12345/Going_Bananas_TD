@@ -14,6 +14,7 @@ public class Tags : MonoBehaviour
     public string crocodileEnemy = "CrocEnemy";
     public string rhinoEnemy = "RhinoEnemy";
     public string deathTag = "isDeath";
+    public string bananaTag = "banana";
 
 
 

@@ -5,15 +5,20 @@ public class EnemyUnit : MonoBehaviour
 {
     public float health;
     private Tags _tags;
-    public float moneyOnDeath;
+    private float _moneyOnDeath;
     private bool _death;
     private CurrencyManager _currencyManager;
+    private ScoreManager _scoreManager;
     private Animator _anim;
+    private float _scoreWorth;
+    private EnemyMovement _enemyMovement;
 
     void Awake()
     {
         _tags = FindObjectOfType<Tags>();
         _currencyManager = FindObjectOfType<CurrencyManager>();
+        _scoreManager = FindObjectOfType<ScoreManager>();
+        _enemyMovement = FindObjectOfType<EnemyMovement>();
         _anim = GetComponent<Animator>();
 
     }
@@ -21,38 +26,34 @@ public class EnemyUnit : MonoBehaviour
     void Start()
     {
         _tags.GiveTag(_tags.crocodileEnemy,this.gameObject);
+        _scoreWorth = Random.Range(1, 999);
+        _moneyOnDeath = Random.Range(100, 250);
     }
 
 
     void TakeDamage(int dmgAmount)
     {
-        health = health - dmgAmount;
-        print(health);
-        if (health <= 0)
+        health -= dmgAmount;
+       // print(health);
+        if(health <= 0)
         {
-            _death = true;
             _anim.SetBool(_tags.deathTag, true);
-        }
-    }
+            _enemyMovement.moveSpeed = 0;
+            print("am I dying");
+            _currencyManager.Currency += _moneyOnDeath;
+            _scoreManager.Score += _scoreWorth;
+            Destroy(this.gameObject, 1f);
+           
 
-    private IEnumerator KillOnAnimationEnd()
-    {
-        if (_death)
-        {
-            yield return new WaitForSeconds(0.1f);
-            _death = false;
-            OnDeath();
         }
     }
 
     void OnDeath()
     {
-        _currencyManager.Currency += moneyOnDeath;
-        Destroy(this.gameObject);
+
     }
 
     void Update()
     {
-        StartCoroutine(KillOnAnimationEnd());
     }
 }

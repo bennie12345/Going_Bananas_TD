@@ -15,7 +15,7 @@ public class UnitSpawn : MonoBehaviour
 
     bool? isPlacingUnit;
     private bool _canPlace;
-    private LayerMask _lyrMask;
+    [SerializeField]private string _tag;
     GameObject unitToPlace;
 
     void Awake()
@@ -32,8 +32,14 @@ public class UnitSpawn : MonoBehaviour
         return roundMousePos;
     }
 
+    public void setLayerMask(string l)
+    {
+        
+    }
+
     public void SpawnUnit(GameObject u)
     {
+
         if (_currencyManager.Currency >= 300)
         {
             unitToPlace = Instantiate(u, MousePos(), UnitPos.rotation) as GameObject;
@@ -52,38 +58,27 @@ public class UnitSpawn : MonoBehaviour
         if (isPlacingUnit == true)
         {
 
-            if (unitToPlace.tag == "Gorilla")
-            {
-                _lyrMask = LayerMask.GetMask("GorillaField");
-            }
-            else if (unitToPlace.name == "MonkeyUnit")
-            {
-                _lyrMask = LayerMask.GetMask("BuildUnit");
-            }
-            else if (unitToPlace.name == "bananana(Clone)")
-            {
-                _lyrMask = LayerMask.GetMask("BananaField");
-            }
+           
 
             Vector3 mousePos = MousePos();
             unitToPlace.transform.position = mousePos;
 
             unitToPlace.GetComponent<Unit>().enabled = false;
 
-
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1,_lyrMask);
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1);
             for (int i = 0; i < colliders.Length; i++)
             {
-                Debug.Log(colliders[i].tag);
-                Debug.Log(colliders[i].IsTouchingLayers(_lyrMask));
-                if (colliders[i].tag == "notplaceable")
-                {
-                    _canPlace = false;
-                }
-                else if (colliders[i].tag != "notplaceable")
+                Debug.Log(colliders[i]);
+
+                if (colliders[i].tag == GetComponent<Unit>().Tag)
                 {
                     unitToPlace.GetComponent<Renderer>().material.color = Color.green;
                     _canPlace = true;
+                }
+                else 
+                {
+                    
+                    _canPlace = false;
                 }
             }
 

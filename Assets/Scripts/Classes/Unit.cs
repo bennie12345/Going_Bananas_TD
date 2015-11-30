@@ -10,6 +10,8 @@ public class Unit : MonoBehaviour {
     [SerializeField]
     private int _maxTimesThrown;
 
+    [SerializeField]
+    private string _tag;
     private GameObject _target;
     private float _timer;
     private bool  _canAttack;
@@ -18,6 +20,13 @@ public class Unit : MonoBehaviour {
     private int _timesThrown;
     
     protected Animator _anim;
+
+    public string Tag {
+        get {
+            return _tag;
+
+        }
+    }
 
     void Awake()
     {

@@ -5,7 +5,7 @@ public class EnemyMovement : MonoBehaviour {
 
     
     private Tags _tags;
-    protected float _moveSpeed;
+    public float moveSpeed;
     protected bool _hitBase = false;
 
     public float minSpeed;
@@ -23,7 +23,7 @@ public class EnemyMovement : MonoBehaviour {
 
     void RandomMovementSpeed()
     {
-        _moveSpeed = Random.Range(minSpeed, maxSpeed);
+        moveSpeed = Random.Range(minSpeed, maxSpeed);
        // Debug.Log(_moveSpeed);
     }
 	
@@ -33,7 +33,7 @@ public class EnemyMovement : MonoBehaviour {
         if (_hitBase == false)
         {
             Vector2 movement = new Vector2(1, 0f);
-            transform.Translate(movement * _moveSpeed * Time.deltaTime);
+            transform.Translate(movement * moveSpeed * Time.deltaTime);
         }
 
 	
