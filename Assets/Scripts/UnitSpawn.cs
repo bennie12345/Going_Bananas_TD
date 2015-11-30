@@ -58,24 +58,20 @@ public class UnitSpawn : MonoBehaviour
         if (isPlacingUnit == true)
         {
 
-           
 
+            Unit unit = unitToPlace.GetComponent<Unit>();
             Vector3 mousePos = MousePos();
             unitToPlace.transform.position = mousePos;
 
-            unitToPlace.GetComponent<Unit>().enabled = false;
+            unit.enabled = false;
 
-<<<<<<< HEAD:Assets/Scripts/UnitSpawn.cs
             Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1);
-=======
 
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1, _lyrMask);
->>>>>>> 1209f6a14e12449b9a423999da2ac11600131cb4:Assets/_scripts/UnitSpawn.cs
             for (int i = 0; i < colliders.Length; i++)
             {
                 Debug.Log(colliders[i]);
 
-                if (colliders[i].tag == GetComponent<Unit>().Tag)
+                if (colliders[i].tag == unit.Tag)
                 {
                     unitToPlace.GetComponent<Renderer>().material.color = Color.green;
                     _canPlace = true;

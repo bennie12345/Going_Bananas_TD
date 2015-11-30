@@ -23,12 +23,7 @@ public class EnemyMovement : MonoBehaviour {
 
     void RandomMovementSpeed()
     {
-<<<<<<< HEAD:Assets/Scripts/EnemyMovement.cs
         moveSpeed = Random.Range(minSpeed, maxSpeed);
-       // Debug.Log(_moveSpeed);
-=======
-        _moveSpeed = Random.Range(minSpeed, maxSpeed);
->>>>>>> 1209f6a14e12449b9a423999da2ac11600131cb4:Assets/_scripts/EnemyMovement.cs
     }
 
 	virtual public void Update () {

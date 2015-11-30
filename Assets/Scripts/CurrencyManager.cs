@@ -9,11 +9,9 @@ public class CurrencyManager : MonoBehaviour
 
     void Start()
     {
-<<<<<<< HEAD:Assets/Scripts/CurrencyManager.cs
         currency = 600;
-=======
+
         currency = 1200;
->>>>>>> 1209f6a14e12449b9a423999da2ac11600131cb4:Assets/_scripts/CurrencyManager.cs
     }
 
    public float Currency {
