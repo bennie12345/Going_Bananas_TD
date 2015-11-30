@@ -45,12 +45,12 @@ public class UnitSpawn : MonoBehaviour
             unitToPlace = Instantiate(u, MousePos(), UnitPos.rotation) as GameObject;
             _r = unitToPlace.GetComponent<SpriteRenderer>();
             _color = _r.material.color;
-            
+
 
             isPlacingUnit = true;
         }
 
-        
+
     }
 
     void PlaceUnit()
@@ -65,7 +65,12 @@ public class UnitSpawn : MonoBehaviour
 
             unitToPlace.GetComponent<Unit>().enabled = false;
 
+<<<<<<< HEAD:Assets/Scripts/UnitSpawn.cs
             Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1);
+=======
+
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(new Vector2(MousePos().x, MousePos().y), 1, _lyrMask);
+>>>>>>> 1209f6a14e12449b9a423999da2ac11600131cb4:Assets/_scripts/UnitSpawn.cs
             for (int i = 0; i < colliders.Length; i++)
             {
                 Debug.Log(colliders[i]);
@@ -91,11 +96,11 @@ public class UnitSpawn : MonoBehaviour
                     _currencyManager.Currency -= 300;
                     unitToPlace.GetComponent<Unit>().enabled = true;
                     unitToPlace.GetComponent<Renderer>().material.color = _color;
-                } 
+                }
             }
 
-            }
         }
+    }
 
     void Update()
     {
